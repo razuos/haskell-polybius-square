@@ -1,8 +1,12 @@
 # haskell-polybius-square
 
-Este programa implementa a codificação e decodificaçao da cifra de Políbio, onde os caracteres de uma mensagem são mapeados a um par de inteiros de 1 a 5. Baseados na posição dos caracteres em um quadrado 5x5.
+This Haskell app implements the encoding and decoding of a String using the Polybius Square cipher, using a 5x5 table to map characters to numbers based on their position on the table.
 
 https://en.wikipedia.org/wiki/Polybius_square
 
-Uso Debian Linux, logo consegui instalar o `ghc` e suas depedências com o comando `sudo apt install haskell-platform`.
+Dependencies:
+- `ghc version 8.6.5`: `sudo apt install haskell-platform`
+- `cabal version 2.4.0.0`: `sudo apt install haskell-platform`
+- `split version 0.2.3.3`: `cabal install split` or `cabal run` automatically installs it.
 
+To compile and run on Linux: `cabal run` or `./run.sh`

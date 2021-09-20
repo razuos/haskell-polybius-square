@@ -1,3 +1,4 @@
-*.hi
-*.o
-typing-test
+dist
+main.hi
+main.o
+polybius-square

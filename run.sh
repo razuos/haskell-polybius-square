@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-ghc -o typing-test main.hs || exit 1
+ghc -o polybius-square main.hs || exit 1
 
-./typing-test
+./polybius-square
